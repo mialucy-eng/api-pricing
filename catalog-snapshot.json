@@ -1,0 +1,1913 @@
+{
+  "source": "https://luckyapi.online/api/catalog/v1/catalog",
+  "fetched_at": "2026-09-02T22:16:11Z",
+  "revision": "8debd580d4ec4aa0",
+  "models": [
+    {
+      "id": "gpt-5.3-codex-spark",
+      "display_name": "GPT-5.3 Codex Spark",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.75,
+          "output_per_million": 14,
+          "cached_input_per_million": 0.175
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.05,
+          "output_per_million": 8.4,
+          "cached_input_per_million": 0.105
+        }
+      }
+    },
+    {
+      "id": "gpt-5.4",
+      "display_name": "GPT-5.4",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 2.5,
+          "output_per_million": 15,
+          "cached_input_per_million": 0.25
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.5,
+          "output_per_million": 9,
+          "cached_input_per_million": 0.15
+        }
+      }
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "display_name": "GPT-5.4 mini",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.75,
+          "output_per_million": 4.5,
+          "cached_input_per_million": 0.075
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.45,
+          "output_per_million": 2.7,
+          "cached_input_per_million": 0.045
+        }
+      }
+    },
+    {
+      "id": "gpt-5.5",
+      "display_name": "GPT-5.5",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 5,
+          "output_per_million": 30,
+          "cached_input_per_million": 0.5
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 3,
+          "output_per_million": 18,
+          "cached_input_per_million": 0.3
+        }
+      }
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "display_name": "GPT-5.6 Luna",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Cost-efficient multimodal",
+        "zh-CN": "高性价比多模态"
+      },
+      "featured_rank": 1,
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.2,
+          "output_per_million": 1.2,
+          "cached_input_per_million": 0.02,
+          "cache_write_per_million": 0.25
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.12,
+          "output_per_million": 0.72,
+          "cached_input_per_million": 0.012,
+          "cache_write_per_million": 0.15
+        }
+      }
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "display_name": "GPT-5.6 Sol",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Flagship multimodal",
+        "zh-CN": "旗舰多模态"
+      },
+      "featured_rank": 3,
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 5,
+          "output_per_million": 30,
+          "cached_input_per_million": 0.5,
+          "cache_write_per_million": 6.25
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 3,
+          "output_per_million": 18,
+          "cached_input_per_million": 0.3,
+          "cache_write_per_million": 3.75
+        }
+      }
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "display_name": "GPT-5.6 Terra",
+      "provider_id": "openai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Balanced multimodal",
+        "zh-CN": "均衡多模态"
+      },
+      "featured_rank": 2,
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 2,
+          "output_per_million": 12,
+          "cached_input_per_million": 0.2,
+          "cache_write_per_million": 2.5
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.2,
+          "output_per_million": 7.2,
+          "cached_input_per_million": 0.12,
+          "cache_write_per_million": 1.5
+        }
+      }
+    },
+    {
+      "id": "grok-4.5",
+      "display_name": "Grok 4.5",
+      "provider_id": "xai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 2,
+          "output_per_million": 6,
+          "cached_input_per_million": 0.3
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.2,
+          "output_per_million": 3.6,
+          "cached_input_per_million": 0.18
+        }
+      }
+    },
+    {
+      "id": "grok-4.6",
+      "display_name": "Grok 4.6",
+      "provider_id": "xai",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Flagship text and reasoning",
+        "zh-CN": "旗舰文本与推理"
+      },
+      "featured_rank": 6,
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 2,
+          "output_per_million": 6,
+          "cached_input_per_million": 0.5
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.2,
+          "output_per_million": 3.6,
+          "cached_input_per_million": 0.3
+        }
+      }
+    },
+    {
+      "id": "claude-opus-4-8",
+      "display_name": "Claude Opus 4.8",
+      "provider_id": "anthropic",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 5,
+          "output_per_million": 25,
+          "cached_input_per_million": 0.5,
+          "cache_write_per_million": 6.25
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 3,
+          "output_per_million": 15,
+          "cached_input_per_million": 0.3,
+          "cache_write_per_million": 3.75
+        }
+      }
+    },
+    {
+      "id": "claude-opus-5",
+      "display_name": "Claude Opus 5",
+      "provider_id": "anthropic",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Complex agentic coding",
+        "zh-CN": "复杂智能体与编程"
+      },
+      "featured_rank": 4,
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 5,
+          "output_per_million": 25,
+          "cached_input_per_million": 0.5,
+          "cache_write_per_million": 6.25
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 3,
+          "output_per_million": 15,
+          "cached_input_per_million": 0.3,
+          "cache_write_per_million": 3.75
+        }
+      }
+    },
+    {
+      "id": "claude-fable-5",
+      "display_name": "Claude Fable 5",
+      "provider_id": "anthropic",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Highest-capability long-running agents",
+        "zh-CN": "最高能力长程智能体"
+      },
+      "featured_rank": 5,
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 10,
+          "output_per_million": 50,
+          "cached_input_per_million": 1,
+          "cache_write_per_million": 12.5
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 6,
+          "output_per_million": 30,
+          "cached_input_per_million": 0.6,
+          "cache_write_per_million": 7.5
+        }
+      }
+    },
+    {
+      "id": "claude-sonnet-5",
+      "display_name": "Claude Sonnet 5",
+      "provider_id": "anthropic",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 2,
+          "output_per_million": 10,
+          "cached_input_per_million": 0.2,
+          "cache_write_per_million": 2.5
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.2,
+          "output_per_million": 6,
+          "cached_input_per_million": 0.12,
+          "cache_write_per_million": 1.5
+        }
+      }
+    },
+    {
+      "id": "deepseek-v4-pro-0813",
+      "display_name": "DeepSeek V4 Pro",
+      "provider_id": "deepseek",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Normal price shown; weekday Beijing 09:00–12:00 and 14:00–18:00 peak pricing is 2×",
+        "zh-CN": "展示平峰价格；北京时间工作日 09:00–12:00、14:00–18:00 高峰价格为 2 倍"
+      },
+      "highlights": [
+        {
+          "en": "Thinking toggle and reasoning effort"
+        },
+        {
+          "en": "Effort collapses to low, high and max upstream"
+        },
+        {
+          "en": "Thinking enabled by default at high"
+        },
+        {
+          "en": "OpenAI and Anthropic protocol surfaces"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How do I control thinking on DeepSeek V4 Pro?"
+          },
+          "answer": {
+            "en": "On /v1/chat/completions send thinking.type as enabled or disabled and reasoning_effort as low, medium, high, xhigh or max. The gateway maps low to low, medium, high and xhigh to high, and max to max, so there are three effective levels rather than five. Thinking is enabled at high unless you turn it off."
+          }
+        },
+        {
+          "question": {
+            "en": "Can DeepSeek V4 Pro read images?"
+          },
+          "answer": {
+            "en": "No. Use deepseek-v4-flash-vision-exp for image understanding; it accepts an input_image content block on /v1/responses. The Pro route is text only."
+          }
+        },
+        {
+          "question": {
+            "en": "What does reasoning.effort do on the Responses endpoint?"
+          },
+          "answer": {
+            "en": "A /v1/responses request uses reasoning.effort and the gateway converts it to the Chat Completions reasoning_effort field. DeepSeek accepts none, low, high and max there, where none disables thinking."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.435,
+          "output_per_million": 0.87,
+          "cached_input_per_million": 0.003625,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.261,
+          "output_per_million": 0.522,
+          "cached_input_per_million": 0.002175,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "display_name": "DeepSeek V4 Flash Vision",
+      "provider_id": "deepseek",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Vision-capable model; weekday Beijing 09:00–12:00 and 14:00–18:00 peak pricing is 2×",
+        "zh-CN": "支持视觉输入；北京时间工作日 09:00–12:00、14:00–18:00 高峰价格为 2 倍"
+      },
+      "highlights": [
+        {
+          "en": "Image understanding"
+        },
+        {
+          "en": "Experimental route"
+        },
+        {
+          "en": "Thinking toggle and reasoning effort"
+        },
+        {
+          "en": "Verified low and max effort levels"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How do I send an image to DeepSeek V4 Flash Vision?"
+          },
+          "answer": {
+            "en": "Post to /v1/responses with a content array holding an input_text block and an input_image block whose image_url is a publicly reachable URL. This is the model to pick when a request needs image understanding."
+          }
+        },
+        {
+          "question": {
+            "en": "Is DeepSeek V4 Flash Vision production ready?"
+          },
+          "answer": {
+            "en": "It is published as an experimental route, which is what the -exp suffix records. Its thinking toggle and its low and max effort values have been verified against the current upstream, but treat availability and behaviour as less settled than the Pro route."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.14,
+          "output_per_million": 0.28,
+          "cached_input_per_million": 0.0028,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.084,
+          "output_per_million": 0.168,
+          "cached_input_per_million": 0.00168,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "glm-5.1",
+      "display_name": "GLM-5.1",
+      "provider_id": "zhipu",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Zhipu GLM general-purpose model",
+        "zh-CN": "智谱 GLM 通用模型"
+      },
+      "highlights": [
+        {
+          "en": "Thinking toggle only"
+        },
+        {
+          "en": "No reasoning_effort support"
+        },
+        {
+          "en": "OpenAI and Anthropic protocol surfaces"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can I set reasoning_effort on GLM-5.1?"
+          },
+          "answer": {
+            "en": "No. The provider contract does not support reasoning_effort for this model, so use the thinking.type toggle on its own. An upstream can return HTTP 200 while ignoring an unknown field, so a successful request is not proof the control took effect."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I turn thinking off on GLM-5.1?"
+          },
+          "answer": {
+            "en": "Send thinking.type as disabled on /v1/chat/completions. GLM-5.1 differs from GLM-5.2 here: it needs only the toggle, not an accompanying reasoning_effort value."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.4,
+          "output_per_million": 4.4,
+          "cached_input_per_million": 0.26,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.84,
+          "output_per_million": 2.64,
+          "cached_input_per_million": 0.156,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "glm-5.2",
+      "display_name": "GLM-5.2",
+      "provider_id": "zhipu",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Zhipu GLM general-purpose model",
+        "zh-CN": "智谱 GLM 通用模型"
+      },
+      "highlights": [
+        {
+          "en": "Thinking toggle plus effort"
+        },
+        {
+          "en": "Two effective effort levels"
+        },
+        {
+          "en": "Disabling needs both fields"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How do I disable thinking on GLM-5.2?"
+          },
+          "answer": {
+            "en": "Send both thinking.type as disabled and reasoning_effort as none. With the current upstream, sending none on its own can still produce reasoning, so both fields are required to turn it off reliably."
+          }
+        },
+        {
+          "question": {
+            "en": "Which reasoning_effort values change GLM-5.2's behaviour?"
+          },
+          "answer": {
+            "en": "When thinking is enabled the model accepts low, medium, high, xhigh and max, but low, medium and high all map to high upstream and xhigh and max map to max. There are two effective levels."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.4,
+          "output_per_million": 4.4,
+          "cached_input_per_million": 0.26,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.84,
+          "output_per_million": 2.64,
+          "cached_input_per_million": 0.156,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "glm-5.3",
+      "display_name": "GLM-5.3",
+      "provider_id": "zhipu",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Zhipu GLM general-purpose model",
+        "zh-CN": "智谱 GLM 通用模型"
+      },
+      "highlights": [
+        {
+          "en": "Thinking cannot be disabled"
+        },
+        {
+          "en": "Two effective effort levels"
+        },
+        {
+          "en": "Effort values low, high and max"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can I turn thinking off on GLM-5.3?"
+          },
+          "answer": {
+            "en": "No. Thinking cannot be disabled on this model. Control the depth with reasoning_effort instead, which accepts low, high and max."
+          }
+        },
+        {
+          "question": {
+            "en": "What is the difference between low and high effort on GLM-5.3?"
+          },
+          "answer": {
+            "en": "Currently none. The gateway maps both low and high to upstream high, while max stays max, so the two effective levels are high and max."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.4,
+          "output_per_million": 4.4,
+          "cached_input_per_million": 0.26,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.84,
+          "output_per_million": 2.64,
+          "cached_input_per_million": 0.156,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "glm-5.3-flash",
+      "display_name": "GLM-5.3 Flash",
+      "provider_id": "zhipu",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Promotional official price through Sep 9, 2026 at 24:00 (UTC+8)",
+        "zh-CN": "当前按官方促销价，促销截至 2026-09-09 24:00（UTC+8）"
+      },
+      "highlights": [
+        {
+          "en": "Thinking cannot be disabled"
+        },
+        {
+          "en": "Two effective effort levels"
+        },
+        {
+          "en": "Lowest-cost GLM route"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How does GLM-5.3 Flash differ from GLM-5.3?"
+          },
+          "answer": {
+            "en": "It is the cheaper route in the same family and shares the same reasoning controls: thinking cannot be disabled, reasoning_effort accepts low, high and max, and low and high both resolve to upstream high. Compare the two rates in the pricing table above."
+          }
+        },
+        {
+          "question": {
+            "en": "Does the promotional price last?"
+          },
+          "answer": {
+            "en": "Time-sensitive notes such as the GLM Flash promotional period are carried on this page and on the Models & Pricing page, which is the live price source. Check the rate before planning production volume rather than quoting a request example."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.075,
+          "output_per_million": 0.25,
+          "cached_input_per_million": 0.015,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.045,
+          "output_per_million": 0.15,
+          "cached_input_per_million": 0.009,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "kimi-k2.6",
+      "display_name": "Kimi K2.6",
+      "provider_id": "kimi",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Kimi general-purpose model",
+        "zh-CN": "Kimi 通用模型"
+      },
+      "highlights": [
+        {
+          "en": "Thinking toggle"
+        },
+        {
+          "en": "No effort control"
+        },
+        {
+          "en": "Keep thinking on for a fixed model identity"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Why does the response model come back as auto on Kimi K2.6?"
+          },
+          "answer": {
+            "en": "When thinking is disabled the current upstream reports the response model as auto. If a fixed response-model identity matters to your contract, keep thinking enabled."
+          }
+        },
+        {
+          "question": {
+            "en": "Does Kimi K2.6 support reasoning_effort?"
+          },
+          "answer": {
+            "en": "No. Use the thinking.type toggle; reasoning_effort is not supported on this model. Kimi K3 is the route in this family that takes effort levels."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.95,
+          "output_per_million": 4,
+          "cached_input_per_million": 0.16,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.57,
+          "output_per_million": 2.4,
+          "cached_input_per_million": 0.096,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "kimi-k2.7-code",
+      "display_name": "Kimi K2.7 Code",
+      "provider_id": "kimi",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Kimi model optimized for coding",
+        "zh-CN": "面向编程场景优化的 Kimi 模型"
+      },
+      "highlights": [
+        {
+          "en": "Thinking always enabled"
+        },
+        {
+          "en": "Only one valid thinking shape"
+        },
+        {
+          "en": "Code-oriented Kimi route"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How should I send the thinking field to Kimi K2.7 Code?"
+          },
+          "answer": {
+            "en": "Omit it. If you send it explicitly the only valid shape is {\"type\":\"enabled\",\"keep\":\"all\"}. Thinking is always enabled and reasoning_effort is unsupported."
+          }
+        },
+        {
+          "question": {
+            "en": "What happens if I send thinking.type=disabled?"
+          },
+          "answer": {
+            "en": "Do not. The current upstream compatibility layer may return HTTP 200 while changing the response model to auto, which no longer satisfies a fixed-model contract."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.95,
+          "output_per_million": 4,
+          "cached_input_per_million": 0.19,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 0.57,
+          "output_per_million": 2.4,
+          "cached_input_per_million": 0.114,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "kimi-k3",
+      "display_name": "Kimi K3",
+      "provider_id": "kimi",
+      "category": "chat",
+      "endpoint": "/v1/responses",
+      "summary": {
+        "en": "Kimi flagship model",
+        "zh-CN": "Kimi 旗舰模型"
+      },
+      "highlights": [
+        {
+          "en": "Defaults to max effort"
+        },
+        {
+          "en": "All three effort levels preserved"
+        },
+        {
+          "en": "Always reasons"
+        },
+        {
+          "en": "Effort changes invalidate prefix cache"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Why is Kimi K3 slower than expected by default?"
+          },
+          "answer": {
+            "en": "Its default reasoning_effort is max, the heaviest level. For latency-sensitive calls set reasoning_effort to low from the first turn and use stream: true."
+          }
+        },
+        {
+          "question": {
+            "en": "Can I change reasoning effort mid-conversation on Kimi K3?"
+          },
+          "answer": {
+            "en": "Avoid it. Kimi documents that switching effort mid-conversation invalidates prefix-cache hits, so the saving you get from cached input disappears. Pick the level on the first turn."
+          }
+        },
+        {
+          "question": {
+            "en": "Does thinking.type work on Kimi K3?"
+          },
+          "answer": {
+            "en": "No. K3 always reasons and live tests show thinking.type=disabled is ignored, so omit the field and use reasoning_effort instead."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official-60",
+        "multiplier": 0.6,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 3,
+          "output_per_million": 15,
+          "cached_input_per_million": 0.3,
+          "cache_write_per_million": 0
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "token",
+          "unit": "million_tokens",
+          "input_per_million": 1.8,
+          "output_per_million": 9,
+          "cached_input_per_million": 0.18,
+          "cache_write_per_million": 0
+        }
+      }
+    },
+    {
+      "id": "gpt-image-2",
+      "display_name": "GPT Image 2",
+      "provider_id": "openai",
+      "category": "image",
+      "endpoint": "/v1/images/generations",
+      "summary": {
+        "en": "Text-to-image and reference editing",
+        "zh-CN": "文生图与参考图编辑"
+      },
+      "note": {
+        "en": "1K tier $0.006; 2K tier $0.006; 4K tier $0.01",
+        "zh-CN": "1K 档 $0.006；2K 档 $0.006；4K 档 $0.01"
+      },
+      "highlights": [
+        {
+          "en": "Text to image and reference edits"
+        },
+        {
+          "en": "1–16 reference images per edit"
+        },
+        {
+          "en": "Aspect ratio goes in the prompt"
+        },
+        {
+          "en": "Every returned image billed separately"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How do I control the aspect ratio on GPT Image 2?"
+          },
+          "answer": {
+            "en": "Spell it out in the prompt, for example \"square 1:1 composition\" or 16:9. The size and quality compatibility fields are still forwarded, but the upstream may normalise them to auto, so exact pixel sizes and quality tiers are not guaranteed on this route."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I send several reference images?"
+          },
+          "answer": {
+            "en": "Post multipart to /v1/images/edits and repeat one image[] field per file, one to sixteen of them, inside the same request. Do not join several paths into a single field."
+          }
+        },
+        {
+          "question": {
+            "en": "Does a larger n cost more?"
+          },
+          "answer": {
+            "en": "Yes. n requests multiple results and the final count is decided upstream; every returned image appears in data[].b64_json and is billed individually, so a larger n also increases time and response size."
+          }
+        }
+      ],
+      "featured_rank": 7,
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.006
+            },
+            {
+              "label": "2K",
+              "price": 0.006
+            },
+            {
+              "label": "4K",
+              "price": 0.01
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.006
+            },
+            {
+              "label": "2K",
+              "price": 0.006
+            },
+            {
+              "label": "4K",
+              "price": 0.01
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nano-banana-2-lite",
+      "display_name": "Nano Banana 2 Lite",
+      "provider_id": "google",
+      "category": "image",
+      "endpoint": "/v1/images/generations",
+      "summary": {
+        "en": "Fast, cost-efficient image generation and reference editing",
+        "zh-CN": "快速高性价比的图片生成与参考图编辑"
+      },
+      "note": {
+        "en": "1K image output",
+        "zh-CN": "1K 图片输出"
+      },
+      "highlights": [
+        {
+          "en": "Fast and cost-efficient"
+        },
+        {
+          "en": "Previews and batch drafts"
+        },
+        {
+          "en": "Aspect ratios 1:1 to 9:16"
+        },
+        {
+          "en": "Up to 4 images per request"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "When should I pick Nano Banana 2 Lite over Nano Banana 2?"
+          },
+          "answer": {
+            "en": "Lite is positioned for previews, batch drafts and everyday edits where turnaround and cost matter more than final quality. Move to Nano Banana 2 for production generation and to Nano Banana Pro for final assets."
+          }
+        },
+        {
+          "question": {
+            "en": "What aspect ratios and counts does it accept?"
+          },
+          "answer": {
+            "en": "aspect_ratio supports 1:1, 16:9, 4:3, 3:4 and 9:16 with 1:1 as the default, and n supports 1 to 4. When seed is present n must be 1."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.0336,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.0336
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.0336,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.0336
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nano-banana-2",
+      "display_name": "Nano Banana 2",
+      "provider_id": "google",
+      "category": "image",
+      "endpoint": "/v1/images/generations",
+      "summary": {
+        "en": "High-quality image generation and reference editing",
+        "zh-CN": "高质量图片生成与参考图编辑"
+      },
+      "note": {
+        "en": "1K image output",
+        "zh-CN": "1K 图片输出"
+      },
+      "highlights": [
+        {
+          "en": "Production image generation"
+        },
+        {
+          "en": "Single-reference editing"
+        },
+        {
+          "en": "Aspect ratios 1:1 to 9:16"
+        },
+        {
+          "en": "Up to 4 images per request"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How many reference images can Nano Banana 2 edit?"
+          },
+          "answer": {
+            "en": "Exactly one. Reference editing on this family accepts a single image and returns JPEG output; post it multipart to /v1/images/edits with the prompt and aspect_ratio."
+          }
+        },
+        {
+          "question": {
+            "en": "Which of the three Nano Banana routes should I use?"
+          },
+          "answer": {
+            "en": "Nano Banana 2 is the high-quality route for production generation and reference edits. Lite is the fast, cost-efficient route for previews and drafts; Pro is the professional route for final assets."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.067,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.067
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.067,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.067
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nano-banana-pro",
+      "display_name": "Nano Banana Pro",
+      "provider_id": "google",
+      "category": "image",
+      "endpoint": "/v1/images/generations",
+      "summary": {
+        "en": "Professional image generation and reference editing",
+        "zh-CN": "专业级图片生成与参考图编辑"
+      },
+      "note": {
+        "en": "1K image output",
+        "zh-CN": "1K 图片输出"
+      },
+      "highlights": [
+        {
+          "en": "Professional output quality"
+        },
+        {
+          "en": "Final production assets"
+        },
+        {
+          "en": "Single-reference editing"
+        },
+        {
+          "en": "Aspect ratios 1:1 to 9:16"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "What is Nano Banana Pro for?"
+          },
+          "answer": {
+            "en": "It is the professional route in the family, positioned for final assets with higher quality requirements. It uses the same OpenAI Images-compatible endpoints and the same parameter limits as the other two routes."
+          }
+        },
+        {
+          "question": {
+            "en": "Does Pro change the request shape?"
+          },
+          "answer": {
+            "en": "No. All three Nano Banana models use the same /v1/images/generations and /v1/images/edits surface, the same aspect_ratio set and the same n limit, so switching is a model-ID change."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.134,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.134
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.134,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-image",
+      "display_name": "Grok Imagine Image",
+      "provider_id": "xai",
+      "category": "image",
+      "endpoint": "/v1/images/generations",
+      "summary": {
+        "en": "Fast text-to-image",
+        "zh-CN": "快速文生图"
+      },
+      "note": {
+        "en": "Fast tier",
+        "zh-CN": "快速档"
+      },
+      "highlights": [
+        {
+          "en": "Fast tier"
+        },
+        {
+          "en": "1k and 2k output"
+        },
+        {
+          "en": "Up to 3 reference images"
+        },
+        {
+          "en": "Temporary result URLs"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How does the fast tier differ from the quality tier?"
+          },
+          "answer": {
+            "en": "grok-imagine-image is the fast tier and grok-imagine-image-quality is the quality tier with reference editing. Both share the endpoints and parameters; compare their rates in the pricing table above."
+          }
+        },
+        {
+          "question": {
+            "en": "How long do the returned image links stay valid?"
+          },
+          "answer": {
+            "en": "The default response returns temporary data[].url links, so download them promptly. Request response_format as b64_json if you would rather receive the bytes inline."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.012
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.012
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-image-quality",
+      "display_name": "Grok Imagine Image Quality",
+      "provider_id": "xai",
+      "category": "image",
+      "endpoint": "/v1/images/generations",
+      "summary": {
+        "en": "High-quality text-to-image and reference editing",
+        "zh-CN": "高质量文生图与参考图编辑"
+      },
+      "note": {
+        "en": "Quality tier with reference editing",
+        "zh-CN": "质量档，支持参考图编辑"
+      },
+      "highlights": [
+        {
+          "en": "Quality tier with reference editing"
+        },
+        {
+          "en": "1k and 2k output only"
+        },
+        {
+          "en": "Up to 3 reference images"
+        },
+        {
+          "en": "Frame follows the first input image"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "What resolutions does Grok Imagine Image Quality accept?"
+          },
+          "answer": {
+            "en": "resolution accepts only 1k or 2k. Use aspect_ratio to control the frame; when aspect_ratio is not set the output follows the first input image."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I send reference images?"
+          },
+          "answer": {
+            "en": "Post multipart to /v1/images/edits and repeat the image field for one to three local files in the same request. LuckyAPI converts the files into the JSON image objects xAI expects."
+          }
+        }
+      ],
+      "featured_rank": 8,
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.03,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.03
+            },
+            {
+              "label": "2K",
+              "price": 0.042
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "image",
+          "unit": "generation",
+          "generation_per_unit": 0.03,
+          "tiers": [
+            {
+              "label": "1K",
+              "price": 0.03
+            },
+            {
+              "label": "2K",
+              "price": 0.042
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0-fast",
+      "display_name": "Seedance 2.0 Fast",
+      "provider_id": "bytedance",
+      "category": "video",
+      "endpoint": "/v1/videos/generations",
+      "summary": {
+        "en": "Fast Seedance video generation with text, image, video, and audio references",
+        "zh-CN": "快速 Seedance 视频生成，支持文本、图片、视频与音频参考"
+      },
+      "note": {
+        "en": "4–15 seconds; 480p or 720p; one output per request; reference videos ×2",
+        "zh-CN": "4–15 秒；480p 或 720p；每次请求生成 1 条；带参考视频 ×2"
+      },
+      "highlights": [
+        {
+          "en": "Fastest turnaround"
+        },
+        {
+          "en": "Drafts and previews"
+        },
+        {
+          "en": "4–15 second clips at 480p or 720p"
+        },
+        {
+          "en": "24 fps H.264 MP4"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "When should I use Seedance 2.0 Fast?"
+          },
+          "answer": {
+            "en": "For drafts and previews where turnaround matters more than final quality. It shares Seedance 2.0's reference limits but caps output at 480p or 720p."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I upload local reference files?"
+          },
+          "answer": {
+            "en": "Send them to /v1/media/uploads first; the generation request itself only carries HTTPS URLs. This is the same flow for all three Seedance routes."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "luckyapi",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.04,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.04
+            },
+            {
+              "label": "720p",
+              "price": 0.091
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.04,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.04
+            },
+            {
+              "label": "720p",
+              "price": 0.091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seedance-2.0",
+      "display_name": "Seedance 2.0",
+      "provider_id": "bytedance",
+      "category": "video",
+      "endpoint": "/v1/videos/generations",
+      "summary": {
+        "en": "Seedance video generation with text, first/last frame, and multimodal references",
+        "zh-CN": "Seedance 视频生成，支持文本、首尾帧和多模态参考"
+      },
+      "note": {
+        "en": "4–15 seconds; text supports 480p/720p, reference modes also support 1080p; reference videos ×2",
+        "zh-CN": "4–15 秒；文生视频支持 480p/720p，参考模式另支持 1080p；带参考视频 ×2"
+      },
+      "highlights": [
+        {
+          "en": "4–15 second clips"
+        },
+        {
+          "en": "1080p on every mode except text-to-video"
+        },
+        {
+          "en": "Up to 15 reference assets"
+        },
+        {
+          "en": "24 fps H.264 MP4"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Does Seedance 2.0 support 1080p?"
+          },
+          "answer": {
+            "en": "Yes for every mode except text-to-video, which is limited to 480p and 720p. Seedance 2.5 is the route to use when a text-to-video job needs 1080p."
+          }
+        },
+        {
+          "question": {
+            "en": "What are the reference limits on Seedance 2.0?"
+          },
+          "answer": {
+            "en": "Up to 9 images, 3 videos and 3 audios, at most 15 assets in total, with each reference video between 2 and 15 seconds and no larger than 50 MiB."
+          }
+        }
+      ],
+      "pricing": {
+        "policy_id": "luckyapi",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.05,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.05
+            },
+            {
+              "label": "720p",
+              "price": 0.11
+            },
+            {
+              "label": "1080p",
+              "price": 0.28
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.05,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.05
+            },
+            {
+              "label": "720p",
+              "price": 0.11
+            },
+            {
+              "label": "1080p",
+              "price": 0.28
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seedance-2.5",
+      "display_name": "Seedance 2.5",
+      "provider_id": "bytedance",
+      "category": "video",
+      "endpoint": "/v1/videos/generations",
+      "summary": {
+        "en": "Latest Seedance video generation with up to 50 multimodal reference assets",
+        "zh-CN": "新一代 Seedance 视频生成，最多支持 50 个多模态参考素材"
+      },
+      "note": {
+        "en": "4–30 seconds; 480p, 720p, or 1080p; one output per request; reference videos ×1.6",
+        "zh-CN": "4–30 秒；480p、720p 或 1080p；每次请求生成 1 条；带参考视频 ×1.6"
+      },
+      "highlights": [
+        {
+          "en": "4–30 second clips"
+        },
+        {
+          "en": "Up to 50 reference assets"
+        },
+        {
+          "en": "480p, 720p and 1080p"
+        },
+        {
+          "en": "24 fps H.264 MP4"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "How large a reference set does Seedance 2.5 take?"
+          },
+          "answer": {
+            "en": "Up to 30 images, 10 videos and 10 audios, with at most 50 assets in total. Reference videos may total 30 seconds and reference audios 30 seconds. It is the widest reference surface of the three Seedance routes."
+          }
+        },
+        {
+          "question": {
+            "en": "How long does a Seedance 2.5 generation take?"
+          },
+          "answer": {
+            "en": "Measured in production, about 2 to 5 minutes for a 4 to 10 second clip. The upstream queue can occasionally hold a job much longer, so poll the job status instead of assuming a deadline."
+          }
+        },
+        {
+          "question": {
+            "en": "Can Seedance 2.5 return 4K or several clips at once?"
+          },
+          "answer": {
+            "en": "No. Output is 24 fps H.264 MP4, 4K is not offered, and every request produces exactly one video, so n must be 1 or omitted."
+          }
+        }
+      ],
+      "featured_rank": 9,
+      "pricing": {
+        "policy_id": "luckyapi",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.077,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.077
+            },
+            {
+              "label": "720p",
+              "price": 0.17
+            },
+            {
+              "label": "1080p",
+              "price": 0.43
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.077,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.077
+            },
+            {
+              "label": "720p",
+              "price": 0.17
+            },
+            {
+              "label": "1080p",
+              "price": 0.43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grok-imagine-video-1.5",
+      "display_name": "Grok Imagine Video 1.5",
+      "provider_id": "xai",
+      "category": "video",
+      "endpoint": "/v1/videos/generations",
+      "summary": {
+        "en": "480p, 720p, and 1080p video generation billed per output second",
+        "zh-CN": "480p、720p、1080p 视频生成，按输出秒数计费"
+      },
+      "note": {
+        "en": "Each resolution has its own per-second rate",
+        "zh-CN": "每档分辨率使用对应的每秒价格"
+      },
+      "highlights": [
+        {
+          "en": "Billed by output second"
+        },
+        {
+          "en": "480p, 720p and 1080p"
+        },
+        {
+          "en": "No surcharge for reference images"
+        },
+        {
+          "en": "Failed jobs are not charged"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Am I charged for a failed Grok Imagine Video job?"
+          },
+          "answer": {
+            "en": "No. Charges use the resolution and output seconds of a successfully generated video; failed or expired jobs incur no video charge."
+          }
+        },
+        {
+          "question": {
+            "en": "Do first-frame or reference images cost extra?"
+          },
+          "answer": {
+            "en": "No. First-frame and reference images currently have no separate image surcharge on this route; you pay the per-second rate for the delivered video."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I download the finished MP4?"
+          },
+          "answer": {
+            "en": "Poll GET /v1/videos/{request_id} until the status is done, then GET /v1/videos/{request_id}/content. The content endpoint waits and streams the MP4, so a retrying download can wait out the generation."
+          }
+        }
+      ],
+      "featured_rank": 10,
+      "pricing": {
+        "policy_id": "official-80",
+        "multiplier": 0.8,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.08,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.08
+            },
+            {
+              "label": "720p",
+              "price": 0.14
+            },
+            {
+              "label": "1080p",
+              "price": 0.25
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "second",
+          "generation_per_unit": 0.064,
+          "tiers": [
+            {
+              "label": "480p",
+              "price": 0.064
+            },
+            {
+              "label": "720p",
+              "price": 0.112
+            },
+            {
+              "label": "1080p",
+              "price": 0.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gemini-omni-flash",
+      "display_name": "Gemini Omni Flash",
+      "provider_id": "google",
+      "category": "video",
+      "endpoint": "/v1/videos/generations",
+      "summary": {
+        "en": "4, 6, 8, or 10-second video generation; 720p and 1080p use the same price",
+        "zh-CN": "支持 4、6、8、10 秒视频；720p/1080p 同价"
+      },
+      "note": {
+        "en": "One video per request; 1080p takes longer to render",
+        "zh-CN": "每次请求生成 1 条视频；1080p 渲染耗时更长"
+      },
+      "highlights": [
+        {
+          "en": "Stable Google Flow route alias"
+        },
+        {
+          "en": "First-frame image to video"
+        },
+        {
+          "en": "720p and 1080p at the same rate"
+        },
+        {
+          "en": "One video per request"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Is gemini-omni-flash the same as gemini-omni-flash-preview?"
+          },
+          "answer": {
+            "en": "No. gemini-omni-flash is LuckyAPI's stable Google Flow route alias. The names gemini-omni-flash-preview and Omni-Flash-Ext belong to different provider APIs and their parameters must not be mixed with this route."
+          }
+        },
+        {
+          "question": {
+            "en": "How do I animate an existing image?"
+          },
+          "answer": {
+            "en": "Post multipart to /v1/videos/generations with an image field holding the local first frame, alongside the prompt, duration, aspect_ratio and resolution fields."
+          }
+        }
+      ],
+      "featured_rank": 11,
+      "pricing": {
+        "policy_id": "official",
+        "multiplier": 1,
+        "official": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "request",
+          "generation_per_unit": 0.08,
+          "tiers": [
+            {
+              "label": "720p",
+              "price": 0.08
+            },
+            {
+              "label": "1080p",
+              "price": 0.08
+            }
+          ]
+        },
+        "effective": {
+          "currency": "USD",
+          "billing_mode": "video",
+          "unit": "request",
+          "generation_per_unit": 0.08,
+          "tiers": [
+            {
+              "label": "720p",
+              "price": 0.08
+            },
+            {
+              "label": "1080p",
+              "price": 0.08
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
