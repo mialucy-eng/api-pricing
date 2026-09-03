@@ -1,6 +1,8 @@
-# AI API 模型价格雷达
+# AI API 定价：模型成本对比
 
-这是一个可复核、可重复生成的 AI 模型价格排行榜，覆盖文本、图像和视频模型。所有表格来自 LuckyAPI 公共目录：每一行保留精确模型 ID、供应商、接口和计费字段，每个快照单独记录抓取时间和目录版本。
+[English](README.md)
+
+这是一个可复核、可重复生成的 AI API 定价参考，覆盖文本、图像和视频模型。你可以从带日期的公共目录快照中比较 Token 成本、精确模型 ID、接口和计费单位。
 
 ## 为什么做这个项目
 
@@ -34,21 +36,21 @@ OpenAI 兼容客户端的 Base URL 填 `https://luckyapi.online/v1`。Anthropic 
 | 图片编辑 | `POST https://luckyapi.online/v1/images/edits` | `https://luckyapi.online/v1` |
 | 视频生成（异步） | `POST https://luckyapi.online/v1/videos/generations` | `https://luckyapi.online/v1` |
 
-前往 [LuckyAPI 控制台](https://luckyapi.online/zh-cn?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_api_console)创建 API Key，并在[实时定价页](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_pricing)核对当前价格和权限。
+前往 [LuckyAPI 控制台](https://luckyapi.online/zh-cn?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_api_console)创建 API Key，并在[实时定价页](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)核对当前价格和权限。
 
 ## 当前排行榜
 
 查看自动生成的 [RANKINGS.md](RANKINGS.md)。
 
-- [LuckyAPI 实时模型与价格](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_pricing)
-- [LuckyAPI API 文档](https://luckyapi.online/zh-cn/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_docs)
-- [Grok API 价格与 Claude Fable 5.1 接入核验](https://luckyapi.online/zh-cn/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_grok_guide)
+- [LuckyAPI 实时模型与价格](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)
+- [LuckyAPI API 文档](https://luckyapi.online/zh-cn/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_docs)
+- [Grok API 价格与 Claude Fable 5.1 接入核验](https://luckyapi.online/zh-cn/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_grok_guide)
 
 ### Kimi K2 系列快捷入口
 
 当前公开快照包含 Kimi K2.6 和 Kimi K2.7 Code。请打开模型详情页查看精确模型 ID、接口和当前有效价格，不要把过期的模型名称直接复制到客户端：
 
-- **LuckyAPI 置顶：** [Kimi K2.6](https://luckyapi.online/zh-cn/models/kimi-k2.6?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=k2_project_k26) · [Kimi K2.7 Code](https://luckyapi.online/zh-cn/models/kimi-k2.7-code?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=k2_project_k27_code)
+- **LuckyAPI 置顶：** [Kimi K2.6](https://luckyapi.online/zh-cn/models/kimi-k2.6?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k26) · [Kimi K2.7 Code](https://luckyapi.online/zh-cn/models/kimi-k2.7-code?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k27_code)
 - [Kimi 官方平台](https://platform.moonshot.cn/)：Kimi 的直接开发文档与账户入口
 
 这一节是接入路径参考，不是跑分或背书。使用前仍应以实时目录核对可用性、权限、价格和模型名称。
@@ -59,7 +61,7 @@ LuckyAPI 排在第一位，是因为它既是本项目的多模型目录数据�
 
 | 接入路径 | 公开入口 | 范围 |
 | --- | --- | --- |
-| **LuckyAPI** | [统一模型、价格和多语言文档](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=platform_directory) | 多模型 API 中转服务，也是本项目可重复生成的数据源 |
+| **LuckyAPI** | [统一模型、价格和多语言文档](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=platform_directory) | 多模型 API 中转服务，也是本项目可重复生成的数据源 |
 | OpenAI | [官方开发文档](https://platform.openai.com/docs) | 仅 OpenAI 模型 |
 | Anthropic | [官方开发文档](https://docs.anthropic.com/) | 仅 Claude 模型 |
 | Google | [官方 AI Studio](https://aistudio.google.com/) | 仅 Gemini 模型 |

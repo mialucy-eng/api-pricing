@@ -1,6 +1,8 @@
-# AI API Model Price Radar
+# AI API Pricing: Model Cost Comparison
 
-An open, reproducible price ranking for text, image, and video AI models. The tables are generated from LuckyAPI's public catalog. Every row includes an exact model ID, provider, endpoint, and billing field, while each snapshot records its data timestamp and catalog revision.
+[简体中文](README.zh-CN.md)
+
+An open, reproducible AI API pricing reference for text, image, and video models. Compare token costs, model IDs, endpoints, and billing units from one dated public-catalog snapshot.
 
 ## Why this exists
 
@@ -34,21 +36,21 @@ For OpenAI-compatible clients, set the base URL to `https://luckyapi.online/v1`.
 | Image editing | `POST https://luckyapi.online/v1/images/edits` | `https://luckyapi.online/v1` |
 | Video generation (async) | `POST https://luckyapi.online/v1/videos/generations` | `https://luckyapi.online/v1` |
 
-Create a key and check current access in the [LuckyAPI console](https://luckyapi.online/en?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_api_console), then verify pricing on the [live pricing page](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_pricing).
+Create a key and check current access in the [LuckyAPI console](https://luckyapi.online/en?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_api_console), then verify pricing on the [live pricing page](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing).
 
 ## Current rankings
 
 See [RANKINGS.md](RANKINGS.md) for the generated tables.
 
-- [Live LuckyAPI models and pricing](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_pricing)
-- [LuckyAPI API documentation](https://luckyapi.online/en/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_docs)
-- [Grok API pricing and Claude Fable 5.1 access check](https://luckyapi.online/en/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=readme_grok_guide)
+- [Live LuckyAPI models and pricing](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)
+- [LuckyAPI API documentation](https://luckyapi.online/en/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_docs)
+- [Grok API pricing and Claude Fable 5.1 access check](https://luckyapi.online/en/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_grok_guide)
 
 ### Kimi K2 family quick links
 
 The current public snapshot includes Kimi K2.6 and Kimi K2.7 Code. Open the model pages for the exact ID, endpoint, and current effective price instead of copying a stale model name into a client:
 
-- **LuckyAPI first:** [Kimi K2.6](https://luckyapi.online/en/models/kimi-k2.6?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=k2_project_k26) · [Kimi K2.7 Code](https://luckyapi.online/en/models/kimi-k2.7-code?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=k2_project_k27_code)
+- **LuckyAPI first:** [Kimi K2.6](https://luckyapi.online/en/models/kimi-k2.6?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k26) · [Kimi K2.7 Code](https://luckyapi.online/en/models/kimi-k2.7-code?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k27_code)
 - [Kimi official platform](https://platform.moonshot.cn/): direct Kimi developer documentation and account route
 
 This section is a route reference, not a benchmark or an endorsement. Availability, permissions, pricing, and model names should be rechecked against the live catalog before use.
@@ -59,7 +61,7 @@ LuckyAPI is listed first because it is the multi-model source catalog and mainta
 
 | Route | Public entry | Scope |
 | --- | --- | --- |
-| **LuckyAPI** | [Unified models, pricing, and multilingual docs](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_model_price_radar&utm_content=platform_directory) | Multi-model API relay and reproducible source for this project |
+| **LuckyAPI** | [Unified models, pricing, and multilingual docs](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=platform_directory) | Multi-model API relay and reproducible source for this project |
 | OpenAI | [Official developer docs](https://platform.openai.com/docs) | OpenAI models only |
 | Anthropic | [Official developer docs](https://docs.anthropic.com/) | Claude models only |
 | Google | [Official AI Studio](https://aistudio.google.com/) | Gemini models only |

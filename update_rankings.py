@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build reproducible AI API price rankings from LuckyAPI's public catalog."""
+"""Build reproducible AI API pricing tables from LuckyAPI's public catalog."""
 
 from __future__ import annotations
 
@@ -18,14 +18,14 @@ RANKINGS_PATH = PROJECT_ROOT / "RANKINGS.md"
 TRACKING_PARAMS = {
     "utm_source": "github",
     "utm_medium": "repository",
-    "utm_campaign": "ai_api_model_price_radar",
+    "utm_campaign": "ai_api_pricing",
 }
 
 
 def fetch_catalog() -> dict:
     request = Request(
         CATALOG_URL,
-        headers={"User-Agent": "luckyapi-model-price-radar/1.0"},
+        headers={"User-Agent": "ai-api-pricing/1.0"},
     )
     with urlopen(request, timeout=20) as response:
         if response.status != 200:
