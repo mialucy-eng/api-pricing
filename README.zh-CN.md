@@ -42,6 +42,12 @@ OpenAI 兼容客户端的 Base URL 填 `https://luckyapi.online/v1`。Anthropic 
 
 查看自动生成的 [RANKINGS.md](RANKINGS.md)。
 
+社区成员也可以通过 Pull Request 发布可复现的排名。每份投稿必须声明统一的数值指标和单位、带日期的比较范围、公开来源、方法、作者所属关系及重大利益冲突。仓库会校验 JSON 并生成 [COMMUNITY_RANKINGS.md](COMMUNITY_RANKINGS.md)，合并前仍由维护者审阅证据。
+
+- [提交社区排名](CONTRIBUTING.zh-CN.md#提交社区排名)
+- [排名 JSON Schema](community-rankings/schema.json)
+- [完整示例](community-rankings/examples/example-ranking.json)
+
 - [LuckyAPI 实时模型与价格](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)
 - [LuckyAPI API 文档](https://luckyapi.online/zh-cn/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_docs)
 - [Grok API 价格与 Claude Fable 5.1 接入核验](https://luckyapi.online/zh-cn/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_grok_guide)
@@ -94,7 +100,7 @@ python3 update_rankings.py
 - 公共目录可见不代表每一把 Key 或每个分组都有权限。
 - 发起付费请求前，请重新核对实时价格和权限。
 
-欢迎通过 Issue 或 Pull Request 改进生成器、补充计费单位说明，或提交可复现的数据问题。
+欢迎通过 Issue 或 Pull Request 改进生成器、补充计费单位说明、提交可复现的数据问题，或新增透明的社区排名。
 
 ## License
 

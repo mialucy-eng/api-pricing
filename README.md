@@ -42,6 +42,12 @@ Create a key and check current access in the [LuckyAPI console](https://luckyapi
 
 See [RANKINGS.md](RANKINGS.md) for the generated tables.
 
+Community members can also publish a reproducible ranking through a pull request. Each submission declares one numeric metric and unit, a dated comparison scope, public sources, methodology, author affiliation, and material conflicts. The repository validates the JSON and generates [COMMUNITY_RANKINGS.md](COMMUNITY_RANKINGS.md); maintainers review evidence before merge.
+
+- [Submit a community ranking](CONTRIBUTING.md#submit-a-community-ranking)
+- [Ranking JSON Schema](community-rankings/schema.json)
+- [Complete example](community-rankings/examples/example-ranking.json)
+
 - [Live LuckyAPI models and pricing](https://luckyapi.online/en/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)
 - [LuckyAPI API documentation](https://luckyapi.online/en/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_docs)
 - [Grok API pricing and Claude Fable 5.1 access check](https://luckyapi.online/en/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_grok_guide)
@@ -94,7 +100,7 @@ No API key, login, SDK, or private data is used.
 - Public catalog visibility does not guarantee access for every key or group.
 - Verify current pricing and access before making a paid request.
 
-Issues and pull requests are welcome when they improve the generator, explain a billing unit, or identify a reproducible data error.
+Issues and pull requests are welcome when they improve the generator, explain a billing unit, identify a reproducible data error, or add a transparent community ranking.
 
 ## License
 

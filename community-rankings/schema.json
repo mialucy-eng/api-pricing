@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mialucy-eng/ai-api-pricing/blob/main/community-rankings/schema.json",
+  "title": "AI API Pricing community ranking submission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "title", "summary", "category", "metric", "scope", "methodology", "sources", "author", "conflicts", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"},
+    "title": {"type": "string", "minLength": 8, "maxLength": 120},
+    "summary": {"type": "string", "minLength": 20, "maxLength": 320},
+    "category": {"enum": ["benchmark", "cost", "latency", "price", "quality", "other"]},
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "unit", "direction"],
+      "properties": {
+        "name": {"type": "string", "minLength": 2, "maxLength": 80},
+        "unit": {"type": "string", "minLength": 1, "maxLength": 40},
+        "direction": {"enum": ["higher_is_better", "lower_is_better"]}
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "market", "inclusion", "exclusions"],
+      "properties": {
+        "as_of": {"type": "string", "format": "date"},
+        "market": {"type": "string", "minLength": 2, "maxLength": 80},
+        "inclusion": {"type": "string", "minLength": 20, "maxLength": 500},
+        "exclusions": {"type": "string", "minLength": 10, "maxLength": 500}
+      }
+    },
+    "methodology": {"type": "string", "minLength": 40, "maxLength": 2000},
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "url", "accessed_at"],
+        "properties": {
+          "label": {"type": "string", "minLength": 2, "maxLength": 120},
+          "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+          "accessed_at": {"type": "string", "format": "date"}
+        }
+      }
+    },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["github", "affiliation"],
+      "properties": {
+        "github": {"type": "string", "pattern": "^(?!.*--)[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$"},
+        "affiliation": {"type": "string", "minLength": 2, "maxLength": 120}
+      }
+    },
+    "conflicts": {"type": "array", "maxItems": 10, "items": {"type": "string", "minLength": 3, "maxLength": 300}},
+    "entries": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "provider", "value", "source_url"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1, "maxLength": 120},
+          "provider": {"type": "string", "minLength": 1, "maxLength": 80},
+          "value": {"type": "number"},
+          "source_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+          "notes": {"type": "string", "minLength": 2, "maxLength": 300}
+        }
+      }
+    }
+  }
+}

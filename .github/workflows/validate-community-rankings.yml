@@ -1,0 +1,36 @@
+name: Validate community rankings
+
+on:
+  pull_request:
+    paths:
+      - "community-rankings/**"
+      - "community_rankings.py"
+      - "COMMUNITY_RANKINGS.md"
+      - ".github/workflows/validate-community-rankings.yml"
+  push:
+    branches: [main]
+    paths:
+      - "community-rankings/**"
+      - "community_rankings.py"
+      - "COMMUNITY_RANKINGS.md"
+      - ".github/workflows/validate-community-rankings.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate submissions and generated index
+        run: |
+          python3 -m py_compile community_rankings.py update_rankings.py
+          python3 -m json.tool community-rankings/schema.json >/dev/null
+          python3 -m json.tool community-rankings/examples/example-ranking.json >/dev/null
+          python3 community_rankings.py --check

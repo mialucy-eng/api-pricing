@@ -1,0 +1,51 @@
+name: Ranking proposal
+description: Propose a comparable, reproducible ranking before preparing a pull request.
+title: "[Ranking proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals are optional. A ranking PR must still include public sources, a shared metric and unit, a dated scope, methodology, and conflict disclosure.
+  - type: input
+    id: question
+    attributes:
+      label: Reader question
+      description: What decision will this ranking help a reader make?
+    validations:
+      required: true
+  - type: input
+    id: metric
+    attributes:
+      label: Metric and unit
+      description: Use one numeric metric and one unit for every entry.
+      placeholder: USD per completed video request
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and inclusion rule
+      description: Name the date, market, included entries, and exclusions.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Reproducible method
+      description: Explain how another person can collect and calculate the same values.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: Add public HTTPS URLs and the date each was accessed.
+    validations:
+      required: true
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Affiliation and conflicts
+      description: Disclose provider, employer, sponsorship, referral, or other material relationships; write "none" when applicable.
+    validations:
+      required: true

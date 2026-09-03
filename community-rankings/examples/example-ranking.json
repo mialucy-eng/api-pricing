@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "example-video-request-price",
+  "title": "Example only: video request price",
+  "summary": "A non-published fixture showing the required structure for a comparable numeric ranking.",
+  "category": "price",
+  "metric": {"name": "Price per completed request", "unit": "USD/request", "direction": "lower_is_better"},
+  "scope": {
+    "as_of": "2026-09-03",
+    "market": "Example data only",
+    "inclusion": "Include two fictional models that use the same billing unit and comparison scope.",
+    "exclusions": "Exclude quality, latency, availability, and all real-product conclusions."
+  },
+  "methodology": "Read one dated public price field for each fictional entry and sort numeric values in ascending order.",
+  "sources": [
+    {"label": "Example source A", "url": "https://example.com/source-a", "accessed_at": "2026-09-03"},
+    {"label": "Example source B", "url": "https://example.com/source-b", "accessed_at": "2026-09-03"}
+  ],
+  "author": {"github": "example-contributor", "affiliation": "Independent example"},
+  "conflicts": [],
+  "entries": [
+    {"name": "Example Model A", "provider": "Example Provider A", "value": 0.08, "source_url": "https://example.com/source-a", "notes": "Fixture value; not a real offer."},
+    {"name": "Example Model B", "provider": "Example Provider B", "value": 0.12, "source_url": "https://example.com/source-b", "notes": "Fixture value; not a real offer."}
+  ]
+}
