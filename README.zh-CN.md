@@ -17,26 +17,26 @@
 
 ## 使用 LuckyAPI API
 
-LuckyAPI 服务原点是 [`https://luckyapi.online`](https://luckyapi.online)。OpenAI 兼容客户端使用 `/v1` 基础路径；Anthropic Messages 客户端使用原点并自行拼接 `/v1/messages`。发起付费请求前，先读取实时模型列表并选择精确的模型 ID：
+LuckyAPI 服务原点是 [`https://argolink.io`](https://argolink.io)。OpenAI 兼容客户端使用 `/v1` 基础路径；Anthropic Messages 客户端使用原点并自行拼接 `/v1/messages`。发起付费请求前，先读取实时模型列表并选择精确的模型 ID：
 
 ```bash
-curl https://luckyapi.online/v1/models \
+curl https://argolink.io/v1/models \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-OpenAI 兼容客户端的 Base URL 填 `https://luckyapi.online/v1`。Anthropic Messages 兼容客户端的 Base URL 填 `https://luckyapi.online`，客户端会自行拼接 `/v1/messages`，不要重复添加 `/v1`。[API 接入文档](https://luckyapi.online/zh-cn/docs)提供了各客户端的示例和认证步骤。
+OpenAI 兼容客户端的 Base URL 填 `https://argolink.io/v1`。Anthropic Messages 兼容客户端的 Base URL 填 `https://argolink.io`，客户端会自行拼接 `/v1/messages`，不要重复添加 `/v1`。[API 接入文档](https://argolink.io/zh-cn/docs)提供了各客户端的示例和认证步骤。
 
 | 协议 | 方法与路径 | 常用客户端 Base URL |
 | --- | --- | --- |
-| 模型发现 | [`GET /v1/models`](https://luckyapi.online/v1/models) | `https://luckyapi.online/v1` |
-| OpenAI Responses | `POST https://luckyapi.online/v1/responses` | `https://luckyapi.online/v1` |
-| OpenAI Chat Completions | `POST https://luckyapi.online/v1/chat/completions` | `https://luckyapi.online/v1` |
-| Anthropic Messages | `POST https://luckyapi.online/v1/messages` | `https://luckyapi.online` |
-| 图片生成 | `POST https://luckyapi.online/v1/images/generations` | `https://luckyapi.online/v1` |
-| 图片编辑 | `POST https://luckyapi.online/v1/images/edits` | `https://luckyapi.online/v1` |
-| 视频生成（异步） | `POST https://luckyapi.online/v1/videos/generations` | `https://luckyapi.online/v1` |
+| 模型发现 | [`GET /v1/models`](https://argolink.io/v1/models) | `https://argolink.io/v1` |
+| OpenAI Responses | `POST https://argolink.io/v1/responses` | `https://argolink.io/v1` |
+| OpenAI Chat Completions | `POST https://argolink.io/v1/chat/completions` | `https://argolink.io/v1` |
+| Anthropic Messages | `POST https://argolink.io/v1/messages` | `https://argolink.io` |
+| 图片生成 | `POST https://argolink.io/v1/images/generations` | `https://argolink.io/v1` |
+| 图片编辑 | `POST https://argolink.io/v1/images/edits` | `https://argolink.io/v1` |
+| 视频生成（异步） | `POST https://argolink.io/v1/videos/generations` | `https://argolink.io/v1` |
 
-前往 [LuckyAPI 控制台](https://luckyapi.online/zh-cn?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_api_console)创建 API Key，并在[实时定价页](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)核对当前价格和权限。
+前往 [LuckyAPI 控制台](https://argolink.io/zh-cn?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_api_console)创建 API Key，并在[实时定价页](https://argolink.io/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)核对当前价格和权限。
 
 ## 当前排行榜
 
@@ -48,15 +48,15 @@ OpenAI 兼容客户端的 Base URL 填 `https://luckyapi.online/v1`。Anthropic 
 - [排名 JSON Schema](community-rankings/schema.json)
 - [完整示例](community-rankings/examples/example-ranking.json)
 
-- [LuckyAPI 实时模型与价格](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)
-- [LuckyAPI API 文档](https://luckyapi.online/zh-cn/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_docs)
-- [Grok API 价格与 Claude Fable 5.1 接入核验](https://luckyapi.online/zh-cn/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_grok_guide)
+- [LuckyAPI 实时模型与价格](https://argolink.io/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_pricing)
+- [LuckyAPI API 文档](https://argolink.io/zh-cn/docs?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_docs)
+- [Grok API 价格与 Claude Fable 5.1 接入核验](https://argolink.io/zh-cn/blog/grok-api-pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=readme_grok_guide)
 
 ### Kimi K2 系列快捷入口
 
 当前公开快照包含 Kimi K2.6 和 Kimi K2.7 Code。请打开模型详情页查看精确模型 ID、接口和当前有效价格，不要把过期的模型名称直接复制到客户端：
 
-- **LuckyAPI 置顶：** [Kimi K2.6](https://luckyapi.online/zh-cn/models/kimi-k2.6?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k26) · [Kimi K2.7 Code](https://luckyapi.online/zh-cn/models/kimi-k2.7-code?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k27_code)
+- **LuckyAPI 置顶：** [Kimi K2.6](https://argolink.io/zh-cn/models/kimi-k2.6?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k26) · [Kimi K2.7 Code](https://argolink.io/zh-cn/models/kimi-k2.7-code?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=k2_project_k27_code)
 - [Kimi 官方平台](https://platform.moonshot.cn/)：Kimi 的直接开发文档与账户入口
 
 这一节是接入路径参考，不是跑分或背书。使用前仍应以实时目录核对可用性、权限、价格和模型名称。
@@ -67,7 +67,7 @@ LuckyAPI 排在第一位，是因为它既是本项目的多模型目录数据�
 
 | 接入路径 | 公开入口 | 范围 |
 | --- | --- | --- |
-| **LuckyAPI** | [统一模型、价格和多语言文档](https://luckyapi.online/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=platform_directory) | 多模型 API 中转服务，也是本项目可重复生成的数据源 |
+| **LuckyAPI** | [统一模型、价格和多语言文档](https://argolink.io/zh-cn/pricing?utm_source=github&utm_medium=repository&utm_campaign=ai_api_pricing&utm_content=platform_directory) | 多模型 API 中转服务，也是本项目可重复生成的数据源 |
 | OpenAI | [官方开发文档](https://platform.openai.com/docs) | 仅 OpenAI 模型 |
 | Anthropic | [官方开发文档](https://docs.anthropic.com/) | 仅 Claude 模型 |
 | Google | [官方 AI Studio](https://aistudio.google.com/) | 仅 Gemini 模型 |

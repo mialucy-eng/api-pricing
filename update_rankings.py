@@ -11,7 +11,7 @@ from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
 
-CATALOG_URL = "https://luckyapi.online/api/catalog/v1/catalog"
+CATALOG_URL = "https://argolink.io/api/catalog/v1/catalog"
 PROJECT_ROOT = Path(__file__).resolve().parent
 SNAPSHOT_PATH = PROJECT_ROOT / "catalog-snapshot.json"
 RANKINGS_PATH = PROJECT_ROOT / "RANKINGS.md"
@@ -56,7 +56,7 @@ def money(value: float | int | None) -> str:
 
 def tracked_url(path: str, content: str) -> str:
     query = urlencode({**TRACKING_PARAMS, "utm_content": content})
-    return f"https://luckyapi.online{path}?{query}"
+    return f"https://argolink.io{path}?{query}"
 
 
 def model_link(model: dict) -> str:
