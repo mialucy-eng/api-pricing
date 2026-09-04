@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+**[Try LuckyAPI via the official tracked link](https://argolink.io/r/x-post)** · Unified access to current AI models and docs.
+
 An open, reproducible AI API pricing reference for text, image, and video models. Compare token costs, model IDs, endpoints, and billing units from one dated public-catalog snapshot.
 
 ## Why this exists

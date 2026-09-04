@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+**[通过 LuckyAPI 官方追踪入口体验](https://argolink.io/r/x-post)** · 统一接入当前 AI 模型和文档。
+
 这是一个可复核、可重复生成的 AI API 定价参考，覆盖文本、图像和视频模型。你可以从带日期的公共目录快照中比较 Token 成本、精确模型 ID、接口和计费单位。
 
 ## 为什么做这个项目
